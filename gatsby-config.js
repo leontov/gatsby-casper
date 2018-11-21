@@ -1,6 +1,10 @@
 const path = require('path');
 
 module.exports = {
+  plugins: [`gatsby-plugin-netlify-cms`],
+}
+
+module.exports = {
   siteMetadata: {
     title: 'Ghost',
     description: 'The professional publishing platform',
